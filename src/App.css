@@ -1,0 +1,28 @@
+.App {
+  align-content: center;
+  text-align: center;
+  background-color: #1349b5;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(25, 203, 141);
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App{
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.completed {
+  text-decoration: line-through;
+}
+
+button {
+  margin-left: 10px;
+}
